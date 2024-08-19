@@ -16,7 +16,7 @@
   margin-bottom: auto;
 }
 
-.post-content {
+.post-container {
   display: block;
 }
 
@@ -34,7 +34,7 @@
   white-space: pre-line;
 }
 
-.post-button-delete {
+.button-delete {
   margin: 10px
 }
 

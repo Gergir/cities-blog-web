@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useEffect, useState } from "react";
 import Post from "./Post";
-
+import NewPost from "./newPost";
 
 const BASE_URL = 'http://localhost:8000/'
 
@@ -41,6 +41,9 @@ function App() {
             <Post post_fast_api={post} />
           ))
         }
+      </div>
+      <div className="new-post">
+        <NewPost />
       </div>
     </div>
   );

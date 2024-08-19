@@ -15,12 +15,12 @@ function Post({post_fast_api}) {
   return (
     <div className="post">
       <img className="post-image" src={imageUrl} alt="a photo of a city"/>
-      <div className="post-content">
+      <div className="post-container">
         <div className="post-title">{post_fast_api.title}</div>
         <div className="post-subtitle">{post_fast_api.subtitle}</div>
         <div className="post-author">by {post_fast_api.creator} date: {post_fast_api.date}</div>
         <div className="post-content">{post_fast_api.content}</div>
-        <div className="post-button-delete">
+        <div className="button-delete">
           <button onClick={null}>Delete Post</button>
         </div>
       </div>
